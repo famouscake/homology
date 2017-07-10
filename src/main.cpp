@@ -159,6 +159,7 @@ void reduce(vector<vector<int>> &d, vector<vector<int>> &p, vector<vector<int>> 
 int main(int argc, char *argv[])
 {
     auto d1 = readData();
+    printData(d1);
 
     // For Row Operations
     vector<vector<int>> p(d1.size(), vector<int>(d1.size()));
